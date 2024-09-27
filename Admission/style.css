@@ -1,0 +1,102 @@
+*{
+    margin-left: 10px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*introduction*/
+.intro h3{
+    margin: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.intro hr{
+    margin-left: -17px;
+}
+.intro h5{
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+/*Head*/
+.names{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+}
+.head h2{
+    margin: 5px;
+    margin-left: 15px;
+}
+.fin,.sin,.tin,.n{
+    width: 100%;
+    margin: 6px;
+    flex-basis: 30%;
+    font-size: 15px;
+}
+.fin,.sin,.tin{
+    padding: 5px;
+}
+/*Second head*/
+.date{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 5%;
+}
+.sechead h2{
+    margin: 5px;
+    margin-left: 15px;
+}
+.fopt,.sopt,.topt,.d{
+    margin: 6px;
+    flex-basis: 30%;
+    font-size: 15px;
+    width: 100%;
+}
+.fopt,.sopt,.topt{
+    padding: 5px;
+}
+
+
+
+@media screen and (max-width:900px){
+    .fin,.sin,.tin,.n{
+        width: 100%;
+        margin: 6px;
+        flex-basis: 30%;
+    }
+    .fopt,.sopt,.topt,.d{
+        margin: 6px;
+        flex-basis: 30%;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:700px){
+    .fin,.sin,.tin,.n{
+        width: 100%;
+        margin: 6px;
+        flex-basis: 45%;
+    }
+    .fopt,.sopt,.topt,.d{
+        margin: 6px;
+        flex-basis: 45%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .fin,.sin,.tin,.n{
+        width: 100%;
+        margin: 6px;
+        flex-basis: 80%;
+    }
+    .fopt,.sopt,.topt,.d{
+        margin: 6px;
+        flex-basis: 80%;
+        width: 100%;
+    }
+}
+
